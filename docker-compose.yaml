@@ -1,0 +1,19 @@
+version: '3'
+services:
+
+  spring-security-multi-realm-authentication:
+    container_name: authentication-server
+    image: authentication-server
+    ports:
+      - "8080:8080"
+      - "9251:9251"
+    environment:
+      - DEBUG_PORT=9251
+    build:
+      context: authentication-server
+    networks:
+      - application-network
+
+networks:
+  application-network:
+      driver: bridge
