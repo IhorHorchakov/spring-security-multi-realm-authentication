@@ -33,7 +33,7 @@ accordingly to its geographical affiliation.
 -------
 Useful links:
 
-https://datatracker.ietf.org/doc/html/rfc2617
+https://datatracker.ietf.org/doc/html/rfc7235#section-2.2
 
 https://www.codecentric.de/wissens-hub/blog/spring-security-two-security-realms-in-one-application
 
